@@ -1,0 +1,7 @@
+* {
+    --color-one: orange;
+}
+
+body {
+    background-color: var(--color-one);
+}
