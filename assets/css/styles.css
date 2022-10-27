@@ -210,6 +210,11 @@ body {
 }
 
 @media screen and (max-width: 960px) {
+    .profile-img {
+        max-width: 100%;
+        width: 50%;
+        height: fit-content;
+    }
     .works {
         display: flex;
         justify-content: center;
