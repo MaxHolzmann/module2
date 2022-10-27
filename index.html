@@ -10,17 +10,65 @@
 <body>
 
     <header>
-
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#works">Works</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <section>
-        
-    </section>
+    <content class="content-wrapper">
+
+        <section id="about" class="about">
+
+            <div class="about-block-one">
+                <h1>Maximilian Holzmann</h1>
+                <img class="profile-img" src="assets/imgs/profile.png" alt="A picture of Maximilian Holzmann singing in a button up shirt."/>
+            </div>
+
+            <div class="about-block-two">
+                <h2>About Me</h2>
+                <p>This is about me</p>
+            </div>
+
+        </section>
+
+        <section id="works" class="works">
+            <figure>
+                <a href="https://maxholzmann.github.io/meal-generator/" target="_blank"><img src="assets/imgs/work-1.png" alt="An image of Max's meal generator web application"/></a>
+                <figcaption class="work-caption">A web application made using JS & JSON to help you determine your next meal.</figcaption>
+            </figure>
+
+            <figure>
+                <a href="https://maxholzmann.github.io/design/old/castle.html" target="_blank"><img src="assets/imgs/work-2.png" alt="An image of Max's Castle Crashers informational web application"/></a>
+                <figcaption class="work-caption">A web application made with JS to provide information on characters from the game, "Castle Crashers"</figcaption>
+            </figure>
+
+            <figure>
+                <a href="https://maxholzmann.github.io/design/old/calculator.html" target="_blank"><img src="assets/imgs/work-3.png" alt="An image of Max's calculator web application"/></a>
+                <figcaption class="work-caption">A simple calculator project made using JS</figcaption>
+            </figure>
+           
+        </section>
+
+        <section id="contact" class="contact">
+            <h2>Contact Me</h2>
+            <ul>
+                <li><a href="mailto:max@holzmann.io">Email</a></li>
+                <li><a href="https://github.com/MaxHolzmann">Github</a></li>
+            </ul>
+        </section>
+
+    </content>
 
 
-    <footer>
-
+    <footer class="footer">
+        <p>Made with <span class="heart">❤</span> by Maximilian Holzmann</p>
     </footer>
+
     
 </body>
 </html>
