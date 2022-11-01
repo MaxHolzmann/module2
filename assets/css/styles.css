@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
 
 
-* {
+:root {
     --theme-color-main: #dd7c1b;
     --theme-color-secondary: #2f89fc; 
     --theme-color-third: #2b007b;
@@ -14,6 +14,9 @@ body {
     overflow-x: hidden;
     background-color: var(--theme-color-secondary);
 }
+
+
+/* Navbar styles */
 
 .navbar ul {
     display: flex;    
@@ -46,12 +49,18 @@ body {
     color: white;
 }
 
+/* Classes to format the page */
 .content-wrapper {
     display: flex;
     flex-direction: column;
     font-family: "Lato", Helvetica, Arial, sans-serif;
 }
 
+.grid-col-span-2 {
+    grid-column: span 2;
+}
+
+/* First section, the about section */
 .about {
     margin-top: 40px;
     display: flex;
@@ -105,6 +114,7 @@ body {
 .about-block-two h2 {
     font-size: 4em;
 }
+
 .about-block-two p {
     display: flex;
     flex-wrap: wrap;
@@ -113,10 +123,7 @@ body {
     font-size: 1.5em;
 }
 
-.grid-col-span-2 {
-    grid-column: span 2;
-}
-
+/* The works / portfolio section styling */
 .works {
     padding: 10px;
     display: grid;
@@ -154,6 +161,7 @@ body {
     opacity: 0.5;
 }
 
+/* Contact section */
 .contact {
     color: white;
     background-color: var(--theme-color-secondary);
@@ -186,6 +194,8 @@ body {
     color: lightgray;
 }
 
+
+/* Footer section */
 .footer {
     font-size: 1.5em;
     padding: 15px;
