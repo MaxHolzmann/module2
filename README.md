@@ -1,6 +1,4 @@
 # module2
-
-## Description
 This is my assignment for module 2 of UW Minnesota's Full Stack Bootcamp. In this assignment, I was tasked with creating a basic web dev portfolio from scratch using HTML & CSS. This should showcase my works as I continue to grow as a web developer.
 
 ## Deployment
