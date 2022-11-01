@@ -6,6 +6,9 @@
     --theme-color-main: #dd7c1b;
     --theme-color-secondary: #2f89fc; 
     --theme-color-third: #2b007b;
+}
+
+* {
     margin: 0;
     scroll-behavior: smooth;
 }
